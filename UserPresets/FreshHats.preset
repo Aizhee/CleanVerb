@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptButton" id="OpenPreset" value="1.0"/>
+    <Control type="ScriptButton" id="bypass" value="0.0"/>
+    <Control type="ScriptSlider" id="drywet" value="0.800000011920929"/>
+    <Control type="ScriptSlider" id="damp" value="0.6398472951259464"/>
+    <Control type="ScriptSlider" id="width" value="0.6737887826748192"/>
+    <Control type="ScriptSlider" id="size" value="0.7200000286102295"/>
+    <Control type="ScriptSlider" id="hplp" value="0.6800000071525574"/>
+    <Control type="ScriptSlider" id="base" value="0.0"/>
+    <Control type="ScriptSlider" id="decay" value="0.9700000286102295"/>
+    <Control type="ScriptSlider" id="tension" value="0.0"/>
+    <Control type="ScriptButton" id="LeftPst" value="0.0"/>
+    <Control type="ScriptButton" id="RightPst" value="0.0"/>
+    <Control type="ScriptButton" id="btnRandom" value="0.0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>
