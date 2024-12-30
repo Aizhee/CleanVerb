@@ -305,25 +305,24 @@
       </Node>
     </Nodes>
     <Parameters>
-      <Parameter ID="DRY|WET" MinValue="0.0" MaxValue="1.0" Value="0.800000011920929"
-                 DefaultValue="1.0">
+      <Parameter ID="DRY|WET" MinValue="0.0" MaxValue="1.0" Value="1.0">
         <Connections>
           <Connection NodeId="xfader1" ParameterId="Value"/>
         </Connections>
       </Parameter>
-      <Parameter ID="Damp" MinValue="0.0" MaxValue="1.0" Value="0.06865693628787994"
+      <Parameter ID="Damp" MinValue="0.0" MaxValue="1.0" Value="0.8982951045036316"
                  DefaultValue="1.0">
         <Connections>
           <Connection NodeId="reverb" ParameterId="Damping"/>
         </Connections>
       </Parameter>
-      <Parameter ID="Width" MinValue="0.0" MaxValue="1.0" Value="0.7255266904830933"
+      <Parameter ID="Width" MinValue="0.0" MaxValue="1.0" Value="0.2656227052211761"
                  DefaultValue="1.0">
         <Connections>
           <Connection NodeId="reverb" ParameterId="Width"/>
         </Connections>
       </Parameter>
-      <Parameter ID="Size" MinValue="0.0" MaxValue="1.0" Value="0.3762684762477875"
+      <Parameter ID="Size" MinValue="0.0" MaxValue="1.0" Value="0.8069910407066345"
                  DefaultValue="1.0">
         <Connections>
           <Connection NodeId="reverb" ParameterId="Size"/>
@@ -337,19 +336,19 @@
           <Connection NodeId="cable_table" ParameterId="Value"/>
         </Connections>
       </Parameter>
-      <Parameter ID="Base" MinValue="0.0" MaxValue="1.0" Value="0.02927052043378353"
+      <Parameter ID="Base" MinValue="0.0" MaxValue="1.0" Value="0.7900000214576721"
                  DefaultValue="1.0">
         <Connections>
           <Connection NodeId="modchain2" ParameterId="BaseSignal"/>
         </Connections>
       </Parameter>
       <Parameter ID="Decay" MinValue="0.0" MaxValue="250.0" StepSize="0.1000000014901161"
-                 SkewFactor="0.4306765496730804" Value="0.1000000014901161" DefaultValue="1.0">
+                 SkewFactor="0.4306765496730804" Value="0.6000000089406966" DefaultValue="1.0">
         <Connections>
           <Connection NodeId="gate" ParameterId="Release"/>
         </Connections>
       </Parameter>
-      <Parameter ID="Tension" MinValue="0.0" MaxValue="250.0" Value="0.6000000089406966"
+      <Parameter ID="Tension" MinValue="0.0" MaxValue="250.0" Value="1.000000014901161"
                  DefaultValue="1.0" StepSize="0.1000000014901161" SkewFactor="0.4306765496730804">
         <Connections>
           <Connection NodeId="gate" ParameterId="Attack"/>
