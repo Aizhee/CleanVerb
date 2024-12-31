@@ -1,6 +1,10 @@
 # CleanVerb
 
+
+
 A reverb plugin that combines a traditional reverb effect with a gated ducking system inspired by Fruity Peak Controller. The gate dynamically modulates the wetness of the reverb based on a signal's peak, allowing for a clean and professional sound.
+
+[Get Now!](https://ko-fi.com/s/2fc73dd2f4)
 
 ![product image](/GitImages/CleanVerb.png)
 
@@ -88,7 +92,11 @@ Key features include:
 - Minimal CPU usage with optimized algorithms for real-time performance.
 
 ## Installation
-1. Download the plugin installer from the official website.
+1. Download the plugin installer from the [store page](https://ko-fi.com/s/2fc73dd2f4).
 2. Run the installer and follow the instructions.
 3. Open your DAW and scan for new plugins.
+
+or
+
+Compile from the Source code by Downloading [HISE](https://hise.dev) and adding it to the HISE Project Directory 
 

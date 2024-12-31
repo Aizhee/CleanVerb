@@ -1,0 +1,36 @@
+//----------------------------------------------------------------------------
+// LICENSE
+// (c) 2024, Aizhe
+//----------------------------------------------------------------------------
+
+This plugin is distributed under the terms:
+
+GPL Version 3 (GNU General Public License)
+
+   This plugin's source code is open and freely available under the GPLv3 license. You can use, modify, and distribute the source code according to the terms of GPLv3. You can find the full license text here: https://www.gnu.org/licenses/gpl-3.0.html
+
+Precompiled Binaries and Payment
+
+Pre-built binaries and VST3 versions are offered on a "pay as you wish" basis. There is no obligation to pay for access to these binaries. However, contributions are welcome to support further development.
+
+Third-Party Components
+
+This plugin incorporates components from open-source projects:
+
+* HISE (https://github.com/christophhart/HISE/blob/develop/LICENSE)
+* JUCE (https://juce.com/get-juce/)
+* VST3 (https://steinbergmedia.github.io/vst3_dev_portal/pages/VST+3+Licensing/What+are+the+licensing+options.html#open-source-gplv3-license)
+
+By using this plugin, you agree to comply with the respective licenses of these third-party components.
+
+Attribution
+
+When distributing or modifying this plugin, proper attribution to the original authors and these third-party components is required.
+
+Disclaimer
+
+This software is provided "AS IS" without warranty of any kind, express or implied. The authors and copyright holders shall not be liable for any damages arising from the use of this software.
+
+Contact
+
+For questions or clarifications about licensing, contact aizhemusic@gmail.com.

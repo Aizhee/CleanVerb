@@ -1,6 +1,5 @@
 AdditionalSourceCode
 AudioFiles
-Binaries
 Documentation
 Expansions
 Images
@@ -12,3 +11,8 @@ XmlPresetBackups
 expansion_info.xml
 project_info.xml
 user_info.xml
+CleanVerbInstallation
+CleanVerb.zip
+Compiled
+JuceLibraryCode
+Builds
