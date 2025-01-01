@@ -212,25 +212,6 @@
                       </Node>
                       <Node ID="chain4" FactoryPath="container.chain" Bypassed="0" Name="chain4">
                         <Nodes>
-                          <Node ID="reverb" FactoryPath="fx.reverb" Bypassed="0" Name="reverb">
-                            <Parameters>
-                              <Parameter MinValue="0.0" MaxValue="1.0" ID="Damping" DefaultValue="0.5"
-                                         Automated="1"/>
-                              <Parameter MinValue="0.0" MaxValue="1.0" ID="Width" DefaultValue="0.5" Automated="1"/>
-                              <Parameter MinValue="0.0" MaxValue="1.0" ID="Size" DefaultValue="0.5" Automated="1"/>
-                            </Parameters>
-                          </Node>
-                          <Node ID="gain2" FactoryPath="core.gain" Bypassed="0" Name="gain2">
-                            <Parameters>
-                              <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
-                                         SkewFactor="5.422270774841309" ID="Gain" Automated="1"/>
-                              <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
-                                         SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.00000029802322"
-                                         DefaultValue="20.0"/>
-                              <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
-                                         SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
-                            </Parameters>
-                          </Node>
                           <Node ID="minmax" FactoryPath="control.minmax" Bypassed="0" Name="minmax">
                             <ModulationTargets>
                               <Connection NodeId="one_pole" ParameterId="Mode"/>
@@ -276,6 +257,25 @@
                               <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Mode" Automated="1"/>
                               <Parameter MinValue="0.0" MaxValue="1.0" StepSize="1.0" ID="Enabled" DefaultValue="1.0"
                                          Automated="1"/>
+                            </Parameters>
+                          </Node>
+                          <Node ID="reverb" FactoryPath="fx.reverb" Bypassed="0" Name="reverb">
+                            <Parameters>
+                              <Parameter MinValue="0.0" MaxValue="1.0" ID="Damping" DefaultValue="0.5"
+                                         Automated="1"/>
+                              <Parameter MinValue="0.0" MaxValue="1.0" ID="Width" DefaultValue="0.5" Automated="1"/>
+                              <Parameter MinValue="0.0" MaxValue="1.0" ID="Size" DefaultValue="0.5" Automated="1"/>
+                            </Parameters>
+                          </Node>
+                          <Node ID="gain2" FactoryPath="core.gain" Bypassed="0" Name="gain2">
+                            <Parameters>
+                              <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                         SkewFactor="5.422270774841309" ID="Gain" Automated="1"/>
+                              <Parameter MinValue="0.0" MaxValue="1000.0" StepSize="0.1000000014901161"
+                                         SkewFactor="0.3010300099849701" ID="Smoothing" Value="20.00000029802322"
+                                         DefaultValue="20.0"/>
+                              <Parameter MinValue="-100.0" MaxValue="0.0" StepSize="0.1000000014901161"
+                                         SkewFactor="5.422270774841309" ID="ResetValue" Value="0.0"/>
                             </Parameters>
                           </Node>
                         </Nodes>
